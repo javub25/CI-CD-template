@@ -1,0 +1,42 @@
+# Learning Progress — GitHub Actions CI/CD (3 days)
+
+Rule: concepts are ticked only after the student explains them back;
+implementations only after a real, green run on GitHub.
+
+## Day 1 — App, fundamentals, first CI
+
+### Implementation
+- [x] Counter app generated (React 19, TS 6, Vite 8, Vitest 5, RTL, ESLint 10)
+- [x] lint / typecheck / test (5) / build pass locally
+- [x] Verified lint + typecheck actually fail on bad code
+- [x] Git initialized, first commit
+- [ ] Pushed to GitHub
+- [ ] First CI workflow designed (student decisions recorded below)
+- [ ] First CI workflow delegated, run green on GitHub
+
+### Concepts (ticked when explained back)
+- [ ] Why: what CI/CD solves
+- [ ] How: workflow → event → job → step → runner
+- [ ] When: triggers, and the CI-before-deploy rule
+- [ ] Why YAML: declarative, versioned automation
+
+## Day 2 — Quality checks & PR automation
+- [ ] Branch protection + required status checks
+- [ ] PR workflow validated via a real PR
+- [ ] Debug exercise 1: CI failure (diagnosed by student first)
+
+## Day 3 — Deployment, debugging, security
+- [ ] Deployment platform chosen
+- [ ] Deploy only from main after CI passes
+- [ ] Public URL + smoke test
+- [ ] Least-privilege GITHUB_TOKEN permissions
+- [ ] Third-party action risks (pinning)
+- [ ] Debug exercise 2: workflow config failure
+- [ ] Independence challenge (new repo)
+- [ ] Competency assessment (6 Q / 3 scenarios / 2 exercises)
+
+## Decisions log
+- TypeScript pinned to 6.0: typescript-eslint does not yet support TS 7.
+
+## Knowledge gaps
+- (none recorded yet)
