@@ -10,20 +10,20 @@ implementations only after a real, green run on GitHub.
 - [x] lint / typecheck / test (5) / build pass locally
 - [x] Verified lint + typecheck actually fail on bad code
 - [x] Git initialized, first commit
-- [ ] Pushed to GitHub
-- [ ] First CI workflow designed (student decisions recorded below)
-- [ ] First CI workflow delegated, run green on GitHub
+- [x] Pushed to GitHub
+- [x] First CI workflow designed (student decisions recorded below)
+- [x] First CI workflow delegated, run green on GitHub
 
 ### Concepts (ticked when explained back)
-- [ ] Why: what CI/CD solves
-- [ ] How: workflow → event → job → step → runner
-- [ ] When: triggers, and the CI-before-deploy rule
-- [ ] Why YAML: declarative, versioned automation
+- [x] Why: what CI/CD solves
+- [x] How: workflow → event → job → step → runner
+- [x] When: triggers, and the CI-before-deploy rule
+- [x] Why YAML: declarative, versioned automation
 
 ## Day 2 — Quality checks & PR automation
-- [ ] Branch protection + required status checks
-- [ ] PR workflow validated via a real PR
-- [ ] Debug exercise 1: CI failure (diagnosed by student first)
+- [x] Branch protection + required status checks
+- [-x-] PR workflow validated via a real PR
+- [-X-] Debug exercise 1: CI failure (diagnosed by student first)
 
 ## Day 3 — Deployment, debugging, security
 - [ ] Deployment platform chosen
