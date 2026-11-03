@@ -22,8 +22,8 @@ implementations only after a real, green run on GitHub.
 
 ## Day 2 — Quality checks & PR automation
 - [x] Branch protection + required status checks
-- [x] PR workflow validated via a real PR
-- [x] Debug exercise 1: CI failure (diagnosed by student first)
+- [-x-] PR workflow validated via a real PR
+- [-X-] Debug exercise 1: CI failure (diagnosed by student first)
 
 ## Day 3 — Deployment, debugging, security
 - [ ] Deployment platform chosen
