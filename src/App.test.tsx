@@ -8,7 +8,7 @@ function setup() {
   render(<App />)
   return {
     user,
-    count: () => screen.getByTestId('count6'),
+    count: () => screen.getByTestId('count11'),
     increment: () => screen.getByRole('button', { name: 'Increment' }),
     decrement: () => screen.getByRole('button', { name: 'Decrement' }),
     reset: () => screen.getByRole('button', { name: 'Reset' }),
