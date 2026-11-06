@@ -12,4 +12,7 @@ Minimal React + TypeScript counter used to learn GitHub Actions CI/CD.
 | `npm run test`      | Vitest + React Testing Library      |
 | `npm run build`     | Type check + production build       |
 
-Requires Node 22+.
+
+Node 22+ | React 19.3.1 | Testing-library ^16.3.3
+
+[![CI](https://github.com/javub25/CI-CD-template/actions/workflows/ci.yml/badge.svg)](https://github.com/javub25/CI-CD-template/actions/workflows/ci.yml)
