@@ -22,18 +22,18 @@ implementations only after a real, green run on GitHub.
 
 ## Day 2 — Quality checks & PR automation
 - [x] Branch protection + required status checks
-- [-x-] PR workflow validated via a real PR
-- [-X-] Debug exercise 1: CI failure (diagnosed by student first)
+- [x] PR workflow validated via a real PR
+- [x] Debug exercise 1: CI failure (diagnosed by student first)
 
 ## Day 3 — Deployment, debugging, security
-- [ ] Deployment platform chosen
-- [ ] Deploy only from main after CI passes
-- [ ] Public URL + smoke test
-- [ ] Least-privilege GITHUB_TOKEN permissions
-- [ ] Third-party action risks (pinning)
-- [ ] Debug exercise 2: workflow config failure
-- [ ] Independence challenge (new repo)
-- [ ] Competency assessment (6 Q / 3 scenarios / 2 exercises)
+- [x] Deployment platform chosen
+- [x] Deploy only from main after CI passes
+- [x] Public URL + smoke test
+- [x] Least-privilege GITHUB_TOKEN permissions
+- [x] Third-party action risks (pinning)
+- [x] Debug exercise 2: workflow config failure
+- [x] Independence challenge (new repo)
+- [x] Competency assessment (6 Q / 3 scenarios / 2 exercises)
 
 ## Decisions log
 - TypeScript pinned to 6.0: typescript-eslint does not yet support TS 7.
